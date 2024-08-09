@@ -1,0 +1,83 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+
+.color-chart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 1em auto; */
+    width: 100%;
+    margin-left: 15px;
+}
+
+.color-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.color-swatch {
+    width: 12%;
+    height: 80px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 0 10px 0 10px;
+    font-size: 7px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.color-swatch>p {
+    background-color: black;
+    color: snow;
+    width: 100%;
+}
+
+.color-swatch:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+.list-group {
+    display: flex;
+    justify-content: center;
+}
+
+.offcanvas {
+    background-color: #212529;
+}
+
+.offcanvas-title {
+    color: whitesmoke;
+}
+
+.card {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+.carousel {
+    height: 60vh;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    height: 100vh;
+}
+
+#render-context {
+    height: 100vh;
+}
